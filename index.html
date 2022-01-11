@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!-- Template by quackit.com -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="css/style.css">
+  		<link rel="stylesheet" href="css/bootstrap.min.css">
+  		<script src="https://apis.google.com/js/api.js"></script>
+  		<script src="js/jquery.min.js"></script>
+  		<script src="js/bootstrap.min.js"></script>
+  		<script src="js/teamDesc.js"></script>
+  		<script src="js/anggota.js"></script>
+  		<script src="js/functions.js"></script>
+		
+		<title>Praktek Kimia Terpadu 2 | ANGKATAN 64 | SMK-SMAK BOGOR</title>
+
+	</head>
+
+	<body>		
+
+		<header id="header">
+			<div class="innertube">
+				<table></table>
+				<p><a href="index.html">Home</a>&nbsp;|&nbsp;
+				<a href="https://drive.smakbo.sch.id" 
+				  target="popup"
+				  onclick="window.open('http://drive.smakbo.sch.id','popup','width=400,height=400'); return false;">
+					Login
+				</a></p>
+			</div>
+		</header>
+				
+		<main role="main">
+			<div class="container-fluid">
+				<div class="row">
+			    	<div class="container set_nav col-sm-3">
+					<nav>
+						<div class="innertube">
+							<div class="panel-group" id="accordion">
+							  <div class="panel panel-default">
+								
+								<div class="panel-heading">
+								  <h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">FARMASI</a>
+								  </h4>
+								</div>
+
+							<div id="collapse1" class="panel-collapse collapse">
+								<div class="panel-body">
+									<ul>
+										<li><a href="#" onClick=loadTeam(5)>Analisis Mutu Obat Herbal untuk Masuk Angin Merek “X”</a></li>
+										<li><a href="#" onClick=loadTeam(15)>Analisis Obat Pereda Nyeri dan Demam dengan Kandungan Aktif Parasetamol dan Kafein Dalam Obat Merek "X"</a></li>
+										<li><a href="#" onClick=loadTeam(18)>Analisis Mutu Obat Batuk dalam Sediaan Tablet Merek B</a></li>
+										<li><a href="#" onClick=loadTeam(26)>Uji Mutu Kandungan dalam Obat Tradisional Merek "TA"</a></li>
+										<li><a href="#" onClick=loadTeam(40)>Analisis Mutu Suplemen Kesehatan Mengandung Vitamin C Merek "X"</a></li>
+										<li><a href="#" onClick=loadTeam(42)>Analisis Mutu Permen Kayu Putih (Cajuput oil) Berbentuk Hard Candy Merek "X" Sebagai Pencegah Covid-19</a></li>
+										<li><a href="#" onClick=loadTeam(53)>Analisis Mutu Salep Obat Anti Jamur Merk "X"</a></li>
+										<li><a href="#" onClick=loadTeam(61)>Analisis Mutu Obat Tradisional Penurun Tekanan Darah Tinggi Merek X dalam Sediaan Kapsul</a></li>
+										<li><a href="#" onClick=loadTeam(71)>Analisis Mutu Obat Pereda Nyeri dan Demam Sediaan Suspensi Ibuprofen Merek "P"</a></li>
+									</ul></div>
+								</div>
+							</div>
+				  
+							<div class="panel panel-default">
+							
+								<div class="panel-heading">
+								  <h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">KOSMETIK</a>
+								  </h4>
+								</div>
+								<div id="collapse2" class="panel-collapse collapse">
+								  <div class="panel-body">
+									<ul>
+										<li><a href="#" onClick=loadTeam(3)>Analisis Mutu Produk Minyak Rambut (Pomade) Oil Based Merek "C"</a></li>
+										<li><a href="#" onClick=loadTeam(11)>Analisis Mutu Lipstik Merek "V"</a></li>
+										<li><a href="#" onClick=loadTeam(22)>Analisis Mutu Baby Lotion Merek “CB”</a></li>
+										<li><a href="#" onClick=loadTeam(31)>Analisis Mutu Krim Tabir Surya SPF 90 dalam Kemasan Merk “D” </a></li>
+										<li><a href="#" onClick=loadTeam(39)>Analisis Mutu Masker Wajah Peel Off Merek "X"</a></li>
+										<li><a href="#" onClick=loadTeam(47)>Analisis Mutu Losion Pencerah Kulit Merek “X”</a></li>
+										<li><a href="#" onClick=loadTeam(56)>Analisis Mutu Krim Pemutih Wajah Merek "X"</a></li>
+										<li><a href="#" onClick=loadTeam(64)>Analisis Mutu Krim Pembersih Muka Merek "S"</a></li>
+										<li><a href="#" onClick=loadTeam(66)>Pembuatan ></a></li>
+									</ul></div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								
+								<div class="panel-heading">
+								  <h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">LINGKUNGAN</a>
+								  </h4>
+								</div>
+								<div id="collapse3" class="panel-collapse collapse">
+								  <div class="panel-body">
+									<ul>
+										<li><a href="#" onClick=loadTeam(1)>Analisis Kualitas Udara dalam Ruangan pada Laboratorium PKT-1 dan Laboratorium PKT-2 di SMK-SMAK Bogor</a></li>
+										<li><a href="#" onClick=loadTeam(12)>Analisis Kualitas Air Danau Situ Gede Daerah Cifor Bogor</a></li>
+										<li><a href="#" onClick=loadTeam(21)>Analisis Kualitas Air Sungai “X” Sebagai Aliran Irigasi Penunjang Pertanian di Kecamatan Bogor Bara</a></li>
+										<li><a href="#" onClick=loadTeam(29)>Analisis Plastik Biodegradable Berbasis Pati Jagung (Amylum maydis) Merek E</a></li>
+										<li><a href="#" onClick=loadTeam(35)>Analisis Kualitas Kompos Kotoran Ayam untuk Kesuburan Tanah</a></li>
+										<li><a href="#" onClick=loadTeam(43)>Analisis Perbandingan Kualitas Udara Ambien DI Dua Tempat Studi Dekat Jalan Tol Kota Bogor</a></li>
+										<li><a href="#" onClick=loadTeam(58)>ANALISIS KADAR NO2, O3, Pb, dan TSP PADA UDARA AMBIEN DI PUSAT KOTA BOGOR</a></li>
+										<li><a href="#" onClick=loadTeam(69)>Analisis Kualitas Air untuk Keperluan Air Minum di Depot Air Ciheuleut</a></li>
+									</ul></div>
+								</div>
+							</div>
+ 
+			 				<div class="panel panel-default">
+							
+								<div class="panel-heading">
+								  <h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">MAKANAN</a>
+								  </h4>
+								</div>
+								<div id="collapse4" class="panel-collapse collapse">
+								  <div class="panel-body">
+									<ul>
+										<li><a href="#" onClick=loadTeam(2)>Analisis Mutu Cokelat Batang Merek N-02</a></li>
+										<li><a href="#" onClick=loadTeam(7)>Analisis Mutu Ikan Asin Kering Jenis Teri Medan (Stolephorus tri) Dari Pasar Bersih Sentul City</a></li>
+										<li><a href="#" onClick=loadTeam(13)>Analisis Mutu Bakso Sapi Kemasan Merex "X" yang Dijual di Pasar Gunung Batu</a></li>
+										<li><a href="#" onClick=loadTeam(16)>Analisis Mutu Selai Buah Stroberi Merek T S</a></li>
+										<li><a href="#" onClick=loadTeam(17)>Analisis Mutu Makanan Ringan Ekstrudat Berbahan Dasar Jagung Merek "X"</a></li>
+										<li><a href="#" onClick=loadTeam(24)>Analisis Mutu Nugget Ayam Merek "A"</a></li>
+										<li><a href="#" onClick=loadTeam(25)>Analisis Mutu Tepung Agar Agar Berbahan Dasar Rumput Laut Merek "S"</a></li>
+										<li><a href="#" onClick=loadTeam(28)>Analisis Mutu Terasi Udang Dalam Kemasan Merek "X"</a></li>
+										<li><a href="#" onClick=loadTeam(33)>Analisis Mutu Mie Telur Merk "X"</a></li>
+										<li><a href="#" onClick=loadTeam(36)>Analisis Mutu Pada Bubur Bayi Instan Merek 'X'</a></li>
+										<li><a href="#" onClick=loadTeam(44)>ANALISIS MUTU COKELAT BATANGAN MEREK D</a></li>
+										<li><a href="#" onClick=loadTeam(48)>Analisis Mutu Selai Nanas Curah yang Diperoleh di Pasar Cisalak Depok</a></li>
+										<li><a href="#" onClick=loadTeam(49)>Manisan Kulit Jeruk Merek "X" Sebagai Sumber Antioksidan</a></li>
+										<li><a href="#" onClick=loadTeam(54)>ANALISIS MUTU SOSIS AYAM SIAP SAJI DALAM KEMASAN MEREK “X” YANG DISUKAI ANAK - ANAK</a></li>
+										<li><a href="#" onClick=loadTeam(57)>Analisis Mutu Keripik Pisang Tanpa Merek diperoleh di Sekitar Pasar Caringin</a></li>
+										<li><a href="#" onClick=loadTeam(63)>Analisis Mutu Kornet Sapi Merek "P"</a></li>
+										<li><a href="#" onClick=loadTeam(65)>Analisis Mutu Mie Instan tanpa Bahan Pengawet Merek “L”</a></li>
+										<li><a href="#" onClick=loadTeam(68)>Analisis Mutu Pada Sampel Biskuit Kiloan Yang Dijual Di Pasar Caringin</a></li>
+									</ul></div>
+								</div>
+							</div>
+
+							<div class="panel panel-default">
+								
+								<div class="panel-heading">
+								  <h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapse5">MINUMAN</a>
+								  </h4>
+								</div>
+								<div id="collapse5" class="panel-collapse collapse">
+								  <div class="panel-body">
+									<ul>
+										<li><a href="#" onClick=loadTeam(4)>Analisis Mutu Minuman Kopi dalam Kemasan Merek “G”</a></li>
+										<li><a href="#" onClick=loadTeam(8)>Analisis Mutu Minumn Sari Buah Jambu Biji dalam Kemasan Merek "B"</a></li>
+										<li><a href="#" onClick=loadTeam(9)>Analisis Mutu Sirup Rasa Cocopandan Merek "X"</a></li>
+										<li><a href="#" onClick=loadTeam(10)>Analisis Mutu Susu UHT Full Cream dalam Kemasan Merek "UM"</a></li>
+										<li><a href="#" onClick=loadTeam(19)>Analisis Mutu Minuman Cokelat Dalam Kemasan</a></li>
+										<li><a href="#" onClick=loadTeam(20)>Analisis Mutu Minuman Sari Buah Apel dalam Kemasan Merek "D"</a></li>
+										<li><a href="#" onClick=loadTeam(27)>Analisis Mutu Minuman Berenergi Merek "X"</a></li>
+										<li><a href="#" onClick=loadTeam(32)>Analisis Mutu Bubuk Minuman Kedelai Merek "X"</a></li>
+										<li><a href="#" onClick=loadTeam(34)>Analisis Mutu Minuman Jamu Kemasan Merek "BU"</a></li>
+										<li><a href="#" onClick=loadTeam(37)>Analisis Mutu Susu Cair Full Cream dalam Kemasan Merek "X"</a></li>
+										<li><a href="#" onClick=loadTeam(41)>Analisis Mutu Minuman Isotonik Merek "X"</a></li>
+										<li><a href="#" onClick=loadTeam(45)>Analisis Mutu pada Minuman Yogurt dalam Kemasan Merek C</a></li>
+										<li><a href="#" onClick=loadTeam(50)>Analisis Total Kopi Bubuk Arabika Gayo Merek "SC"</a></li>
+										<li><a href="#" onClick=loadTeam(55)>Analisis Kualitas Air pada Sumber Mata Air Ligarmukti di Bogor</a></li>
+										<li><a href="#" onClick=loadTeam(59)>Analisis Mutu Minuman Teh dalam Kemasan Merek "X"</a></li>
+										<li><a href="#" onClick=loadTeam(62)>Analisis Mutu Minuman Air Kelapa dalam Kemasan Merek "X"</a></li>
+										<li><a href="#" onClick=loadTeam(67)>Analisis Mutu Minuman Susu Fermentasi Merek "Y"</a></li>
+										<li><a href="#" onClick=loadTeam(72)>Analisis Mutu Serbuk Minuman Tradisional Berbahan Dasar Jahe Merah (Zingiber officinale varietas Rubrum) Merek "CM"</a></li>
+										<li><a href="#" onClick=loadTeam(52)>Analisis Mutu Teh Hijau Celup Merek "X"</a></li>
+			 						</ul></div>
+								</div>
+							</div>
+				  
+							<div class="panel panel-default">
+							
+								<div class="panel-heading">
+								  <h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapse6">MANUFAKTUR</a>
+								  </h4>
+								</div>
+								<div id="collapse6" class="panel-collapse collapse">
+								  <div class="panel-body">
+									<ul>
+										<li><a href="#" onClick=loadTeam(6)>ANALISIS MUTU PUPUK NPK PADAT MEREK “NT”</a></li>
+										<li><a href="#" onClick=loadTeam(14)>Analisis Mutu Minyak Kayu Putih Merek "CL"</a></li>
+										<li><a href="#" onClick=loadTeam(23)>Analisis Mutu Sabun Cuci Tangan Cair Merek "D"</a></li>
+										<li><a href="#" onClick=loadTeam(30)>Analisis Mutu Pakan Ikan Mas Merek "T"</a></li>
+										<li><a href="#" onClick=loadTeam(38)>Analisis mutu sabun mandi cair berbahan baku minyak kelapa murni (VCO) merek "k"</a></li>
+										<li><a href="#" onClick=loadTeam(46)>Analisis Pupuk Cair Asam Amino Merek X</a></li>
+										<li><a href="#" onClick=loadTeam(51)>Analisis Mutu Sabun Cuci Piring Merk "ML"</a></li>
+										<li><a href="#" onClick=loadTeam(60)>Analisis Mutu Pembersih Lantai Beraroma Lavender Merek "SP"</a></li>
+										<li><a href="#" onClick=loadTeam(70)>Analisis Mutu Sabun Mandi Padat Merek "X"</a></li>
+									</ul></div>
+								</div>
+						    </div>
+						</div>
+					</nav>	
+			    	</div><!--/.container col-lg-4-->
+
+			    	<div class="container col-sm-9">
+						<div class="innertube">
+								<p>
+									<iframe id="pdf_load" src="main.html" width="600px" height="800px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+								</p>	
+							</div>
+						</div>
+					</div><!--/.container col-lg-8-->
+			    </div><!--/.row -->
+		    </div><!--/.container-fluid--> 
+		</main>
+
+		<footer id="footer">
+			<div class="innertube">
+				<p align="right">Copyright 2016 - 2018 - SMK SMAK BOGOR</p>
+			</div>
+		</footer>	
+			
+	</body>
+</html>
