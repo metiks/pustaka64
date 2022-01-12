@@ -26,6 +26,7 @@ function loadTeam(kelompok){
 	//ppt_loc =  "materi/PPT/" + team_rubrik + "Kelompok" + kelompok + ".pptx";
 	//ppt_link =  '<a href="'+ppt_loc+'">'+'File Presentasi'+'</a>';	
 	//window.alert(teamDesc[kelompok][2]);
+	window.alert(lap_loc);
   	return viewArticle( lap_loc, detailTeam, ppt_link);
 }
 
